@@ -9,7 +9,7 @@ reactの機能を色々と試すためのリポジトリ
 
 
 ## フォームハンドリングの基本 
-https://github.com/zuoboo/react-advanced/commit/12df33d085992ae111da9952b69e5ef60030e2f9
+[対応コミット](https://github.com/zuoboo/react-advanced/commit/12df33d085992ae111da9952b69e5ef60030e2f9)
 ### Reactでフォームを扱う際に気を付けること
 - コンポーネントからイベントを扱う際、 React が提供する Synthetic Event が適用される
 - フォームの値をコンポーネントの state として持ち、値の反映には state のリフトアップを使
