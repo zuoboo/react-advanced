@@ -84,7 +84,9 @@ useForm の戻り値はさらに複雑で、そのオブジェクトの中に 15
 - `clearErrors`: エラーをクリアする関数。引数で指定した要素のエラーのみクリアすることもできる。
 
 **`RegistrationForm.tsx`ファイルの説明**
+
 [対応コミット](https://github.com/zuoboo/react-advanced/pull/4/commits/2d582008dc2446f261311d5efed99b0165ed3fd8)
+
 `register`関数によるフォーム要素の登録が肝でこの関数の戻り値にはrefのプロパティが含まれている。それを展開してフォーム要素の属性として与えることで、非制御コンポーネントとして対応するリアルDOMをReact Hook Formが管理下に置く。
 ```
 // register箇所を抜粋
