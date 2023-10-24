@@ -10,7 +10,7 @@
 [対応コミット](https://github.com/zuoboo/react-advanced/commit/12df33d085992ae111da9952b69e5ef60030e2f9)
 ### Reactでフォームを扱う際に気を付けること
 - コンポーネントからイベントを扱う際、 React が提供する Synthetic Event が適用される
-- フォームの値をコンポーネントの state として持ち、値の反映には state のリフトアップを使
+- フォームの値をコンポーネントの state として持ち、値の反映には state のリフトアップを使用
 
 **`RegistrationForm.tsx`ファイルの説明**
 - フォーム全体の値を`FormData`型のオブジェクトにして state として持ち回る。
@@ -101,3 +101,10 @@ useForm の戻り値はさらに複雑で、そのオブジェクトの中に 15
 - [APIリファレンス](https://react-hook-form.com/docs)
 - [registerについて](https://react-hook-form.com/docs/useform/register)
 - [クライアント側の「フォーム検証](https://developer.mozilla.org/ja/docs/Learn/Forms/Form_validation)
+
+### Yupでスキーマバリデーション
+**`ValidRegistrationForm.tsx`ファイルの説明**
+
+[対応コミット](https://github.com/zuoboo/react-advanced/pull/5/commits/0811b29647017226e13d6af1d2db568206a91092)
+
+`useForm`の引数オプションに`resolver`としてYu のカスタムリゾルバを設定。それから戻り値で`formState`を受け取り、さらにその中の`errors`をピックアップ。→その中にスキーマで検証した入力値のバリデーションエラー情報が入る。
