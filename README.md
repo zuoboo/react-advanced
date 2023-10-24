@@ -107,4 +107,4 @@ useForm の戻り値はさらに複雑で、そのオブジェクトの中に 15
 
 [対応コミット](https://github.com/zuoboo/react-advanced/pull/5/commits/0811b29647017226e13d6af1d2db568206a91092)
 
-`useForm`の引数オプションに`resolver`としてYu のカスタムリゾルバを設定。それから戻り値で`formState`を受け取り、さらにその中の`errors`をピックアップ。→その中にスキーマで検証した入力値のバリデーションエラー情報が入る。
+`useForm`の引数オプションに`resolver`としてYupのカスタムリゾルバを設定。それから戻り値で`formState`を受け取り、さらにその中の`errors`をピックアップ。→その中にスキーマで検証した入力値のバリデーションエラー情報が入る。
