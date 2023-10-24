@@ -1,7 +1,7 @@
 import type { FC } from 'react';
 import { Heading } from '@chakra-ui/react';
-import RegistrationForm from 'components/RegistrationForm';
-// import RegistrationForm from 'components/ValidRegistrationForm';
+// import RegistrationForm from 'components/RegistrationForm';
+import RegistrationForm from 'components/ValidRegistrationForm';
 import './App.css';
 
 const App: FC = () => (
