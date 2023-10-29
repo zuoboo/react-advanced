@@ -138,3 +138,6 @@ depsが更新されなかった場合：useEffect内の関数は再実行され�
 ``````
 
 **`Unmounting フェーズ`**: コンポーネントが仮想DOMから削除され、ブラウザ表示からも消える→クリーンアップ関数だけが実行される
+
+## 優先度の低いレンダリングを遅延させる
+[対応コミット](https://github.com/zuoboo/react-advanced/pull/8/commits/251668fc81768204e8cbaee02ee41af0c779e5ba)
